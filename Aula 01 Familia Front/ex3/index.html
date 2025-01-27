@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Aumento de Preço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Aumento de Preço</h1>
+
+        <label for="nomeMercadoria">Nome da mercadoria:</label>
+        <input type="text" id="nomeMercadoria" placeholder="Nome da mercadoria" required>
+
+        <label for="precoMercadoria">Preço da mercadoria (R$):</label>
+        <input type="number" id="precoMercadoria" placeholder="Preço" required>
+
+        <button onclick="calcularAumento()">Calcular Aumento</button>
+
+        <div id="resultado">
+            <p id="nomeMercadoriaResultado"></p>
+            <p id="precoNovoResultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

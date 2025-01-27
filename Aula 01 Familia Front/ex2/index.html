@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador de Triângulo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Identificador de Triângulo</h1>
+
+        <label for="ladoA">Digite o valor do lado A:</label>
+        <input type="number" id="ladoA" placeholder="Lado A" required>
+
+        <label for="ladoB">Digite o valor do lado B:</label>
+        <input type="number" id="ladoB" placeholder="Lado B" required>
+
+        <label for="ladoC">Digite o valor do lado C:</label>
+        <input type="number" id="ladoC" placeholder="Lado C" required>
+
+        <button onclick="identificarTriangulo()">Identificar Triângulo</button>
+
+        <div id="resultado">
+            <p id="tipoTriangulo"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
